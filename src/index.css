@@ -49,3 +49,23 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+
+.base-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+
+.base-card h1 {
+  margin-bottom: 18px;
+}
+
+.base-card hr {
+  border: 1px solid rgb(210, 210, 210);
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}

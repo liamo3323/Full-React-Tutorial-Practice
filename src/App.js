@@ -1,5 +1,6 @@
 import Navbar from './Navbar';
-import Home from './Home'
+import Home from './Home';
+import Card from './Card';
 
 function App() {
   return (  // functions always need to return something usually JSX template
@@ -7,6 +8,8 @@ function App() {
       <Navbar />
       <div className="content">
         <Home />
+        <Card />
+        <Card />
       </div>
     </div>
   );
